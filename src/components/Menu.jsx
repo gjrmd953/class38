@@ -16,7 +16,9 @@ const Menu = () => {
             <Nav.Link>
               <Link to={"/about"}>About</Link>
             </Nav.Link>
-            <Nav.Link href="#link">Blog</Nav.Link>
+            <Nav.Link>
+               <Link to={"/blog"}>Blog</Link>
+            </Nav.Link>
             <Nav.Link href="#link">Servic</Nav.Link>
             <Nav.Link href="#link">Contract</Nav.Link>
           </Nav>
